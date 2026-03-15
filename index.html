@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1881 Klanı Karakter Sergisi - Survival of the Funniest</title>
+    <meta name="description" content="En komik PUBG karakter türlerini keşfedin.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="bg-container"></div>
+    <div class="overlay"></div>
+
+    <header>
+        <h1>1881 KLAN SERGİSİ</h1>
+        <p class="subtitle">Efsanevi PUBG Karakter Türleri - "Survival of the Funniest"</p>
+    </header>
+
+    <main class="container">
+        <div class="character-grid">
+            <!-- Karakterler JS ile buraya eklenecek -->
+        </div>
+    </main>
+
+    <!-- Modal -->
+    <div id="charModal" class="modal">
+        <span class="modal-close">&times;</span>
+        <div class="modal-content">
+            <img src="" alt="" id="modalImg" class="modal-img">
+            <div class="modal-body">
+                <span class="char-type" id="modalType"></span>
+                <h2 class="char-name" id="modalName" style="font-size: 3rem;"></h2>
+                <p class="modal-tagline" id="modalTagline"></p>
+                <p class="char-desc" id="modalDesc" style="font-size: 1.1rem;"></p>
+                <div class="modal-traits" id="modalTraits">
+                    <!-- Özellik chipleri -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Survival of the Funniest - PUBG Karakter Müzesi</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
