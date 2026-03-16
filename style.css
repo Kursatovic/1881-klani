@@ -213,10 +213,10 @@ h1 {
 
 .modal-content {
     background: var(--pubg-gray);
-    max-width: 900px;
+    max-width: 800px;
     width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-direction: column;
     border-radius: 12px;
     overflow: hidden;
     border: 2px solid var(--pubg-orange);
@@ -246,7 +246,7 @@ h1 {
 }
 
 .modal-body {
-    padding: 3rem;
+    padding: 3rem 4rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -279,11 +279,7 @@ footer {
 }
 
 @media (max-width: 768px) {
-    .modal-content {
-        grid-template-columns: 1fr;
-    }
-    .modal-img {
-        height: 300px;
-        min-height: auto;
+    .modal-body {
+        padding: 2rem;
     }
 }

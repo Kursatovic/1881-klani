@@ -4,112 +4,112 @@ const characters = [
         type: "Mevzi Heykeli (The Bald Artist)",
         age: 65,
         stats: [
-            { label: "Bencillik", value: 100, class: "anger" },
-            { label: "Kancıklık", value: 100, class: "stealth" },
-            { label: "Sanat", value: 100, class: "luck" }
+            { label: "Sona Kalma Arzusu", value: 100, class: "anger" },
+            { label: "Bencillik", value: 100, class: "stealth" },
+            { label: "Hareketsizlik", value: 95, class: "luck" }
         ],
-        desc: "Kel kafası ve elindeki resim fırçasıyla tam bir sanatçı! Yaşlı moruk, oyunun ortasında resim yapar gibi saklanır. Şerefsizliği ve bencilliğiyle nam salmış, 'gençler ölsün ben sanatımı icra edeyim' felsefesinin kel efsanesidir.",
+        desc: "Kel kafası ve elindeki görünmez resim fırçasıyla savaş alanının en istikrarlı 'heykeli'. Çatışma çıktığında Turgut asla savaşmaz, o sadece hayatta kalan son kişi olmayı bekler. Herkes kurşun atarken o mevzide adeta bir Rönesans tablosu gibi donar kalır. 'Gençler önden ölsün, en son ben kalmalıyım' felsefesinin en ulu temsilcisidir. Silahından çok saklanma yeteneğine güvenir.",
         image: "turgut_statue_moruk_1773616223909.png",
-        tagline: "Tablom bitene kadar kimse beni bulamaz.",
-        traits: ["Yaşlı Moruk", "Kel Artist", "Kancık", "Mevzi Heykeli", "Resim Öğretmeni"]
+        tagline: "Tablom bitene kadar kimse beni bulamaz, gidin siz ölün.",
+        traits: ["Yaşlı Moruk", "Kel Artist", "Hep Sona Kalır", "Mevzi Heykeli", "Sabır Taşı"]
     },
     {
         name: "Emrah (Yapımcı)",
-        type: "Sinsi Beyefendi (The Producer)",
+        type: "Sinsi Beyefendi (The Sleeping Producer)",
         age: 31,
         stats: [
-            { label: "Kurnazlık", value: 100, class: "luck" },
-            { label: "Senaryo", value: 100, class: "stealth" },
-            { label: "Bütçe", value: 95, class: "luck" }
+            { label: "Uykuya Dalma", value: 100, class: "luck" },
+            { label: "Kurnazlık", value: 90, class: "stealth" },
+            { label: "İnsanları Birbirine Kırdırma", value: 95, class: "anger" }
         ],
-        desc: "Film ve dizi dünyasının kurdu! İstanbul beyefendisi maskesinin altında tam bir prodüktör sinsiliği yatar. Her maçı bir film sahnesi gibi kurgular, iki grubu birbirine kırdırıp finali tek başına yapar.",
+        desc: "Film ve dizi dünyasının kurdu! İstanbul beyefendisi maskesinin altında tam bir prodüktör sinsiliği yatar. Her maçı bir film sahnesi gibi kurgular, iki grubu birbirine kırdırır. Ancak en büyük zaafı uykusudur; tam pusu atılacakken, en kritik anlarda mışıl mışıl uyuyakaldığı efsanelerde yazılıdır. Rakipleri birbirine kırdırdıktan sonra horultusu Erangel semalarında yankılanır.",
         image: "emrah_sneaky_gentleman_1773616237085.png",
-        tagline: "Bu sahnede hepiniz öleceksiniz, kestik!",
-        traits: ["Laf Ebesi", "Film Yapımcısı", "İt Köpeği Kırdıran", "Ete Para Vermeyen"]
+        tagline: "Bu sahnede hepiniz öleceksiniz... Ben şurada biraz kestireyim zzz...",
+        traits: ["Laf Ebesi", "Birden Uyuyakalan", "İt Köpeği Kırdıran", "Narkoleptik Beyefendi"]
     },
     {
         name: "Özer (Sigortacı)",
-        type: "Ağır Vasıta (The Insurance Turtle)",
+        type: "Ağır Vasıta (The Slowest Tortoise)",
         age: 42,
         stats: [
+            { label: "Yavaşlık", value: 100, class: "luck" },
             { label: "Asabiyet", value: 95, class: "anger" },
-            { label: "Poliçe", value: 100, class: "luck" },
-            { label: "Açlık", value: 100, class: "anger" }
+            { label: "Geride Kalma", value: 100, class: "stealth" }
         ],
-        desc: "İyi bir sigortacı ama feci asabi! Dünyanın en yavaş loot yapan insanı, poliçe keser gibi titiz ve hantal. Arabaya en son biner, her şeye sinirlenir. Şekeri düştükçe sigorta primlerini artırır, sadece Emrah'a naziktir.",
+        desc: "Dünyanın en yavaş loot yapan, en ağır yürüyen insanı. Grubun hep en arkasında, kilometrelerce gerisinde kalır. Arabaya binilmesi gerektiğinde Özer daha binadan çıkmamıştır bile. Bu inanılmaz yavaşlığı yüzünden asabiyeti zirvelerdedir; şekeri düştükçe sağa sola sinirlenip söylenir ama Emrah'a gelince birden dünyanın en kibar adamına dönüşür. Arkadan yürüyen bir sigorta poliçesi gibidir.",
         image: "ozer_grumpy_turtle_1773616253102.png",
-        tagline: "Ölürseniz kaskınız sigortalı mı kardeşim?",
-        traits: ["Asabi Sigortacı", "Loot Kaplumbağası", "Şeker Mağduru", "Vade Farkı"]
+        tagline: "Ben gelene kadar ölmezseniz poliçenizi keserim kardeşim!",
+        traits: ["Loot Kaplumbağası", "Hep En Arkada", "Şeker Hastası", "Sade Emrah'a Nazik"]
     },
     {
         name: "Kürşat (Tarih Öğretmeni)",
-        type: "Gece Oburu (The Gözlüklü Historian)",
+        type: "Piyade Sürat (The Speedy Historian)",
         age: 35,
         stats: [
-            { label: "Tarih", value: 100, class: "luck" },
-            { label: "İnatçılık", value: 90, class: "anger" },
-            { label: "Açlık", value: 100, class: "anger" }
+            { label: "Kontrolsüz Hız", value: 100, class: "luck" },
+            { label: "Önden Gitme", value: 100, class: "anger" },
+            { label: "Mırç Mırç Yemek", value: 90, class: "luck" }
         ],
-        desc: "Gözlüklerinin arkasından tarihi bir perspektifle haritaya bakar. Geceleri durmadan 'vır vır' konuşur ve haritadaki antik yerleşkeleri anlatırken ağzından 'mırç mırç' yemek sesleri eksik olmaz. Dik kafalıdır.",
+        desc: "Gözlüklerinin kalın camları ardından düşmanı herkesten önce görür ve düşünmeden üzerine koşar! Kürşat o kadar hızlı ve hep öndedir ki, takım daha silah bulamadan o 5 kişiye birden tek başına kafa atmış olur. Bir yandan kulaklıkta 'vır vır' tarihi analizler yapar, diğer yandan ağzından o iğrenç 'mırç mırç' yemek sesleri gelir. Aceleci ve dik kafalı yapısıyla ölüme adeta koşarak giden bir mermidir.",
         image: "kursat_midnight_eater_1773616269116.png",
-        tagline: "Bu tepe aslında Selçukluların stratejik noktasıydı.",
-        traits: ["Gözlüklü Tarihçi", "Mırç Mırç", "Takım Bozan", "Gece Yiyicisi", "Tarih Öğretmeni"]
+        tagline: "Tarihte de böyle önden atılırdık! Çift kaşarlı dürümümü kim yedi?!",
+        traits: ["Önden Koşan Adam", "Mırç Mırç Sesler", "Aşırı Hızlı", "Gözlüklü Lider"]
     },
     {
         name: "Emre (Tarih Öğretmeni)",
-        type: "Levazım Subayı (The History Bot)",
+        type: "Levazım Subayı (The Zen Master)",
         age: 27,
         stats: [
-            { label: "Yardımseverlik", value: 100, class: "luck" },
-            { label: "Arşiv", value: 80, class: "stealth" },
-            { label: "Cömertlik", value: 100, class: "luck" }
+            { label: "Sakinlik", value: 100, class: "stealth" },
+            { label: "Yardımseverlik", value: 95, class: "luck" },
+            { label: "Tepkisizlik", value: 90, class: "luck" }
         ],
-        desc: "Diğer tarih öğretmenimiz! Adamda mühimmatın tarihi bile var. Her şeyi verir ama bazen öylece tozlu bir kütüphanede kalmış gibi donup kalmasıyla meşhurdur. Kendini bir arşiv botu sanıp öylece durur.",
+        desc: "Takımın diğer tarihçisi. Etrafta füzeler patlar, mermiler havada uçuşur, red zone tam kafalarına düşer; Emre'nin yüzünde en ufak bir mimik oynamaz. Sahip olduğu o ürkütücü derecedeki 'aşırı sakinlik' herkesin psikolojisini bozar. Çantasındaki her şeyi tereddütsüz size verir. O donup kalmış bir Zen tapınağı gibidir; sadece tarihi değil, mermileri de sükunetle göğüsler.",
         image: "emre_helper_bot_1773616287800.png",
-        tagline: "Eski mermiler daha deliciydi, alın bunları.",
-        traits: ["Yardım Meleği", "Levazım Subayı", "Tozlu Kütüphaneci", "Tarih Öğretmeni"]
+        tagline: "Vurulduk mu? Olabilir. Al şu bandajı, sakin ol.",
+        traits: ["Aşırı Sakin", "Buzdolabı", "Her Şeyi Veren", "Tepkisiz"]
     },
     {
         name: "İsmail Abi (Emekli Bankacı)",
         type: "Sakin Cellat (The Banker Grandpa)",
         age: 55,
         stats: [
-            { label: "Banka Faizi", value: 100, class: "luck" },
-            { label: "Çocuk Bakımı", value: 100, class: "luck" },
-            { label: "Onur", value: 90, class: "luck" }
+            { label: "Orhan Neffreti", value: 100, class: "anger" },
+            { label: "Dürüstlük", value: 100, class: "luck" },
+            { label: "Çocuk Bakıcılığı", value: 85, class: "stealth" }
         ],
-        desc: "Emekli bankacı, nur yüzlü bir dede! Torun bakarken bir yandan keskin nişancılık yapar. Orhan'ı gördüğü an bankadaki batık krediler aklına gelmiş gibi patlar. Asla arkadan vurmaz, delikanlıdır.",
+        desc: "Emekli bankacı, nur yüzlü bir dede! Gerçek hayatta torun bakarken sanalda mükemmel bir nişancıya dönüşür. Ancak İsmail Abi'nin o tatlı sakinliği, sadece Orhan ekranda belirene kadardır. Orhan'ın yaptığı saçmalıkları ve arabayı kötü kullanışını gördükçe adeta içinden bir şeytan çıkar. Kredisi ödenmemiş borçluya bakar gibi Orhan'a tiksinerek bakar ama asla arkadan vurmaz.",
         image: "ismail_abi_honorable_cellat_1773616303392.png",
-        tagline: "Hesabınızda bakiye kalmadı Orhan Bey!",
-        traits: ["Emekli Bankacı", "Çocuk Bakıcısı", "Sakin Güç", "Asla Arkadan Vurmaz"]
+        tagline: "Orhan'ın arabasına binenin hesabına haciz koydururum!",
+        traits: ["Orhan'a Gıcık", "Emekli Bankacı", "Asla Arkadan Vurmaz", "Torun Bakan Cellat"]
     },
     {
         name: "Orhan (Otomatçı)",
-        type: "Hedef Tahtası (The Vending Machine)",
+        type: "Hedef Tahtası (The Worst Driver)",
         age: 19,
         stats: [
-            { label: "Otomat Arıza", value: 100, class: "anger" },
-            { label: "Bozuk Para", value: 90, class: "luck" },
-            { label: "İsmail Aggro", value: 100, class: "anger" }
+            { label: "İğrenç Şoförlük", value: 100, class: "anger" },
+            { label: "Takla Atma", value: 100, class: "anger" },
+            { label: "Pusu Şansı", value: 0, class: "luck" }
         ],
-        desc: "Otomat işiyle uğraşır ama arabayı otomat gibi sallar! İsmail Abi'nin en büyük kabusu. Her sürüşünde bir felaket, her durağında bir kavga. Taklanın ve bozuk otomata vurulur gibi yenen dayakların adresi.",
+        desc: "Otomatlara madeni para sıkıştıran Orhan, araba kullanma konusunda evrenin en yeteneksiz yaratığıdır. UAZ, Toros veya Motor fark etmez; Orhan direksiyona geçtiği saniye araç düz yolda bile 18 takla atar. O kadar iğrenç araba kullanır ki, düşmanlar ateş etmeyi bırakıp sadece onun kaza yapışını izlerler. İsmail Abi'nin sinir krizlerinin yegane canlı ve yürüyen sebebidir.",
         image: "stunt_driver_1773611793829.png",
-        tagline: "Otomat gibi patlıyorsun abi, kızma!",
-        traits: ["Otomatçı", "İsmail Abi'nin Belası", "Taklacı", "Ehliyetsiz"]
+        tagline: "Abi vallahi tümsek oradan aniden çıktı önüme!",
+        traits: ["Berbat Şoför", "Kaza Makinesi", "İsmail Abi'nin Belası", "Uçan Otomatçı"]
     },
     {
         name: "Grup Klan Üyesi (Drop Delisi)",
         type: "Göklerin Efendisi (The Drop Seeker)",
         age: 22,
         stats: [
-            { label: "Açgözlülük", value: 100, class: "greed" },
-            { label: "Hız", value: 100, class: "luck" },
-            { label: "Duman Aşkı", value: 100, class: "anger" }
+            { label: "Duman Aşkı", value: 100, class: "anger" },
+            { label: "Tehlike Körü", value: 100, class: "luck" },
+            { label: "Açgözlülük", value: 95, class: "greed" }
         ],
-        desc: "Kırmızı duman onun ibadetidir. 1881 klanının en hızlısı, drop için dünyayı yakar. 'AWM benim, 8x benim, her şey benim' diye bağırarak mermiye kafa atar.",
+        desc: "Kırmızı duman onun ibadetgahıdır. 1881 klanının en gözü kara -ve biraz da deli- üyesidir. Gökten düşen sandığı gördüğü an bilincini kaybeder; mermilerin vızıltısını duymaz, etraftaki tehlikeyi sezmez. Sadece o kırmızı dumana doğru, sanki hayatının anlamı o kutunun içindeymiş gibi trans halinde koşar.",
         image: "air_drop_chaser_1773611856345.png",
-        tagline: "Drop benim ruhumun gıdasıdır.",
-        traits: ["Drop Radar", "Aç Gözlü", "Hızlı Koşucu", "Duman Takipçisi"]
+        tagline: "Bırakın o 8x dürbünü! Benim o benim!",
+        traits: ["Kırmızı Duman Aşığı", "Drop Uğruna Ölen", "Adrenalin Bağımlısı"]
     },
     {
         name: "Sessiz Yancı",
@@ -117,13 +117,13 @@ const characters = [
         age: 29,
         stats: [
             { label: "Sessizlik", value: 100, class: "stealth" },
-            { label: "Sürünme", value: 100, class: "luck" },
-            { label: "Sabır", value: 90, class: "luck" }
+            { label: "Sürünme", value: 100, class: "stealth" },
+            { label: "Yerçekimi Uyum", value: 90, class: "luck" }
         ],
-        desc: "İsim beklemede... Toprakla bir olmuş, sessizce sürünüyor. Çimenden ayırt edilemez, varlığı sadece ayak sesinden (o da varsa) anlaşılır.",
+        desc: "Toprakla bir olmuş, sessizce sürünüyor. Çimenden ayırt edilemez, varlığı sadece ayak sesinden (o da varsa) anlaşılır. Yılan kelimesinin bedene bürünmüş hali.",
         image: "prone_snake_1773611874730.png",
-        tagline: "Fırtına sessizliğimden korkar.",
-        traits: ["Sessiz ve Derinden", "Çimen Dostu", "Yılan Modu"]
+        tagline: "Beni göremezsiniz, çünkü ben çimenim.",
+        traits: ["Sessiz ve Derinden", "Sürüngen"]
     },
     {
         name: "Takım Gurmesi",
@@ -134,10 +134,10 @@ const characters = [
             { label: "Ziyafet", value: 100, class: "luck" },
             { label: "Stil", value: 90, class: "luck" }
         ],
-        desc: "İsim beklemede... Tavuğunu yemeden maçı bitirmez. Kazanmak onun için sadece bir akşam yemeği bileti.",
+        desc: "Oyunu sadece finaldeki tavuk yemeğini kazanmak için bir aracı olarak görür. Şık kıyafetiyle pusuya yatar ve menünün kendisine servis edilmesini bekler.",
         image: "chicken_dinner_winner_gourmet_1773611887767.png",
-        tagline: "Winner Winner Chicken Dinner!",
-        traits: ["Gurme", "Şık Giyimli", "Ziyafet Sever"]
+        tagline: "Kazanmak bizim ekmek kapımız.",
+        traits: ["Gurme", "Ziyafet Sever"]
     }
 ];
 
@@ -148,20 +148,19 @@ function init() {
         const card = document.createElement('div');
         card.className = 'char-card';
         
-        let statsHTML = '';
-        char.stats.forEach(stat => {
-            statsHTML += `
-                <div class="stat-item">
-                    <div class="stat-label-row">
-                        <span>${stat.label}</span>
-                        <span>%${stat.value}</span>
-                    </div>
-                    <div class="stat-bar">
-                        <div class="stat-fill ${stat.class}" style="width: ${stat.value}%"></div>
-                    </div>
+        // Show only the first prominent stat on the card to keep it clean
+        let cardStat = char.stats[0];
+        let statsHTML = `
+            <div class="stat-item">
+                <div class="stat-label-row">
+                    <span>Öne Çıkan Özellik: ${cardStat.label}</span>
+                    <span>%${cardStat.value}</span>
                 </div>
-            `;
-        });
+                <div class="stat-bar">
+                    <div class="stat-fill ${cardStat.class}" style="width: ${cardStat.value}%"></div>
+                </div>
+            </div>
+        `;
 
         card.innerHTML = `
             <div class="char-img-container">
@@ -173,7 +172,7 @@ function init() {
                 <div class="char-stats">
                     ${statsHTML}
                 </div>
-                <p class="char-desc">${char.desc}</p>
+                <p class="char-desc" style="display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; text-overflow: ellipsis;">${char.desc}</p>
             </div>
         `;
         
@@ -186,24 +185,24 @@ const modal = document.getElementById('charModal');
 const closeBtn = document.querySelector('.modal-close');
 
 function openModal(char) {
-    document.getElementById('modalImg').src = char.image;
     document.getElementById('modalName').textContent = char.name;
-    document.getElementById('modalTagline').textContent = char.tagline;
+    document.getElementById('modalTagline').textContent = `"${char.tagline}"`;
     document.getElementById('modalType').textContent = char.type;
     document.getElementById('modalDesc').textContent = char.desc;
     
     const statsContainer = document.createElement('div');
     statsContainer.className = 'char-stats';
-    statsContainer.style.marginTop = '1.5rem';
+    statsContainer.style.marginTop = '2rem';
+    statsContainer.style.marginBottom = '2rem';
     
     char.stats.forEach(stat => {
         statsContainer.innerHTML += `
-            <div class="stat-item">
-                <div class="stat-label-row">
+            <div class="stat-item" style="margin-bottom: 1rem;">
+                <div class="stat-label-row" style="font-size: 1rem;">
                     <span>${stat.label}</span>
                     <span>%${stat.value}</span>
                 </div>
-                <div class="stat-bar">
+                <div class="stat-bar" style="height: 12px;">
                     <div class="stat-fill ${stat.class}" style="width: ${stat.value}%"></div>
                 </div>
             </div>
